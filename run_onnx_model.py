@@ -42,8 +42,8 @@ def main():
     input_name = session.get_inputs()[0].name
     input_shape = session.get_inputs()[0].shape
     
-    #inp = preprocess_1(args.image,input_shape[2],input_shape[3])
-    inp = preprocess_2(args.image)
+    inp = preprocess_1(args.image,input_shape[2],input_shape[3])
+    #inp = preprocess_2(args.image)
 
     raw_result = session.run(None, {input_name: inp})
     output_data = np.array(raw_result[0]).squeeze(axis=0)
