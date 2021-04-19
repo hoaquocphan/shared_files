@@ -1,0 +1,19 @@
+ngraph ONNX Importer:
+ 
+data
+shapereshaped"Reshape
+test_graphZ
+data
+
+
+
+Z
+shape
+
+
+b
+reshaped
+
+
+
+B
